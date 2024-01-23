@@ -1,0 +1,159 @@
+
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.full_card{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 87vh;
+    max-width: 419px;
+    width: 100%;
+    background-color: #ecf9fc;
+    box-shadow: 0 6px 10px ;
+    border-radius: 20px;
+    position: absolute;
+}
+.piccard{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 240px;
+    width: 420px;
+    border-radius: 20px 20px 20% 20%;
+    box-shadow: 0 5px 6px -2px rgb(27, 117, 126) ;
+    background-color: #080826;
+    margin-bottom: 12px;
+   
+}  
+.coffee{
+    object-fit:cover;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow:0 7px 10px rgb(10, 146, 117);
+}
+
+.full_card .person
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.person .name{
+    
+    font-size: 27px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+.person .occupation{
+   
+    font-size: 20px;
+    font-weight: 500;
+}
+.button{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.facebook:hover{
+    background-color: #2a60ff;
+    color: #f9f8fd;
+    box-shadow: 0 2px 5px #1942be;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.facebook{
+    height: 40px;
+    width: 110%;
+    padding: 5px 90px 5px 90px;
+    background-color: #e2d2fe;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 3px;
+    border:2px ;
+    border-radius: 20px;
+}
+.twitter:hover{
+    background-color: #161616;
+    color: #f9f8fd;
+    box-shadow: 0 2px 5px #2f2c2c;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.twitter{
+    height: 40px;
+    width: 110%;
+    padding: 5px 90px 5px 90px;
+    background-color: #fffff0;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 3px;
+    border:2px ;
+    border-radius: 20px;
+}
+.instagram:hover{
+    background-color: #833ab4;
+    color: #fffafa;
+    box-shadow: 0 2px 5px #762da7;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.instagram{
+    height: 40px;
+    width: 110%;
+    padding: 5px 90px 5px 90px;
+    background-color: #bae5f4;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 3px;
+    border: 2px  ;
+    border-radius: 20px;
+}
+.snapchat:hover{
+    background-color: yellow;
+    color: rgb(52, 37, 37);
+    box-shadow: 0 2px 5px rgb(185, 185, 25);
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.snapchat{
+    height: 40px;
+    width: 110%;
+    padding: 5px 90px 5px 90px;
+    background-color: #fccdcd;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 3px;
+    border:2px ;
+    border-radius: 20px;
+    margin-bottom: 16px;
+}
+.extro{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.defination{
+    width: 79%;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 8px;
+}

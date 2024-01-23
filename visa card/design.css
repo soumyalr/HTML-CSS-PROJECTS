@@ -1,0 +1,169 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+ .{
+   margin: 0;
+   padding: 0;
+   font-family: 'Poppins', sans-serif;
+   box-sizing: border-box;
+  }
+  section{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(13, 11, 43);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  section::before{
+    content: " ";
+    height: 40vh;
+    width: 40vh;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-190px,-100px);
+    background: linear-gradient(60deg, rgb(51, 181, 147),rgb(112, 4, 155));
+    box-shadow: 2px 0 12px rgb(28, 4, 4);
+  }
+  section::after{
+    content: " ";
+    height: 40vh;
+    width: 40vh;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(240px, 120px);
+    background: linear-gradient(60deg, rgb(51, 181, 147),rgb(112, 4, 155));
+    box-shadow: 2px 0 12px rgb(28, 4, 4);
+  }
+  .container{
+    height: 49vh;
+    width: 70vh;
+    position: absolute;
+    position:relative;
+    z-index: 100;
+    transform-style: preserve-3d;
+    transition: 0.6s;
+  }
+  .container:hover{
+    cursor: pointer;
+    transform: rotateY(180deg);
+    
+  }
+  .container .card{
+   height: 100%;
+   width: 100%;
+   background-size: cover;
+   background-image: url(..//visa\ card/picture/bmw2.jpg);
+   opacity: 0.9;
+   border: 1px solid rgb(120, 8, 8);
+   box-shadow: 2px 4px 10px;
+   border-radius: 7%;
+   padding: 30px;
+   backface-visibility: hidden;
+   position: absolute;
+   
+  }
+  .front-face .logo{
+    display: flex;
+    justify-content: space-between;
+  }
+  .front-face .logo .visa{
+    height: 30px;
+    
+  }
+  .front-face .logo .chip{
+    height: 45px;
+    outline: thin 0.7px solid black ;
+    border-radius: 16%;
+    margin-top: 15vh;
+    box-shadow: 0 0 12px #861818;
+  }
+  .card .details{
+    display: flex;
+    flex-direction: column;
+    color: rgb(231, 217, 217);
+  }
+  .details .credit-card{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+  }
+  .details .number{
+    margin: 0 10px 0 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    word-spacing: 9px;
+    letter-spacing: 2px;
+  }
+  .details .name{
+    margin-top: 30px;
+    font-family:'Roboto', sans-serif;
+    font-size: xx-large;
+    font-weight: 500;
+  }
+  .details .valid{
+    margin-top: -15px;
+    margin-left: 50vh;
+    font-size: larger;
+    font-family:'Roboto', sans-serif;
+  }
+  .details .date{
+    margin-top: 2px;
+    margin-left: 52vh;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+  }
+ .back-side{
+  position: absolute;
+    border: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    transform: rotateY(189deg);
+    
+  }
+  h6{
+    color: rgb(231, 217, 217);
+    font-family:'Roboto', sans-serif;
+    letter-spacing: 0.7px;
+  }
+  .card .magnetic-tip{
+    position: absolute;
+    height: 90px;
+    width: 546px;
+    margin-top: 50px;
+    left: 0;
+    right: 0;
+    background-color:black ;
+  }
+  .card .signature{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+    height: 40px;
+    width: 50vh;
+    align-items: center;
+    background-color: rgb(239, 231, 231);
+    margin-top: 90px;
+    border-radius: 9px;
+  }
+  .signature i{
+    
+    margin-right: -39px;
+    padding-right: 4px;
+    background-color: white;
+    
+  }
+  .back-side h5{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    word-spacing: normal;
+    color: rgb(252, 246, 238);
+  }
+  
+  
+
+
