@@ -4,3 +4,130 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+.main_box{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-image: url(/sidebar/photos/lamp.jpg);
+    background-size: cover;
+}
+
+.Side_box{
+    position: absolute;
+    height: inherit;
+    width: 260px;
+    left: -260px;
+    justify-content: left;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.1);
+    
+}
+.Side_box .logo{
+    height: 60px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 6px  rgba(255, 255, 255, 0.5);
+}
+.logo a{
+    color: aquamarine;
+    font-weight: 500;
+    text-decoration: none;
+}
+.Side_box .menu{
+    position: absolute;
+    width: 100%;
+    top: 60px;  
+}
+.Side_box .menu ul{
+    margin: 0;
+    padding: 0;
+}
+.Side_box .menu li:hover{
+    box-shadow: 0 2px 6px rgba(255,255,255,0.5);
+}
+
+.Side_box .menu li{
+    width: 228px;
+    margin-top: 8px;
+    padding: 16px ;
+   list-style-type: none;
+   font-size: 19px;
+   cursor: pointer;
+   transition: all ease-in-out 0.3s; 
+}
+
+.Side_box .menu a{
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.Side_box .menu i{
+    padding-right: 4px;
+    color: #fff;
+    opacity: 1;
+}
+ .social_media{
+   position: absolute;
+   margin-top: 610px;
+   margin-left: 50px;
+ }
+ .social_media i{
+    font-size: 25px;
+    color: #fff;
+    opacity: 1;
+    transform: translateX(-50%);
+    padding: 0 8px;
+ }
+ .social_media i:hover{
+   color: #f0e7e7;
+    opacity: 1;
+    transition: all 0.2s linear;
+ }
+ #check{
+    display: none;
+ }
+ .main_box .btn_one i{
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    left: 37px;
+    line-height: 60px;
+    
+    opacity: 1;
+    transition: all 0.2s linear;
+ }
+ .btn_one i:hover{
+    font-size: 32px;
+    cursor: pointer;
+ }
+ .btn_two i:hover{
+    cursor: pointer;
+ }
+ .Side_box .btn_two i{
+    position: absolute;
+    font-size: 28px;
+    line-height: 60px;
+    left: 220px;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.2s linear;
+ }
+ #check:checked ~ .Side_box{
+    left: 0px;
+ }
+ #check:checked ~ .btn_one i{
+    opacity: 0;
+ }
+ #check:checked ~ .Side_box .btn_two i{
+    opacity: 1;
+ }
+
