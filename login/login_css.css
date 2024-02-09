@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.{
+ margin: 0;
+ padding: 0;
+ font-family: 'Roboto',sans-serif;
+ box-sizing: border-box;
+}
+body{
+    height: 98vh;
+    width: 98vw;
+    background-color:#0cc193;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_box{
+  position:absolute;
+  box-sizing: border-box;
+  display: grid;
+  height: 500px;
+  width: 400px;
+  background-color: #fff;
+  border-radius: 2%;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px;
+}
+.main_box .top_box{
+  display: flex;
+  top: 0;
+  position: absolute;
+  height: 160px;
+  width: 400px;
+  background-color: red;
+  border-radius: 2% 2% ;
+  align-items: center;
+  justify-content: center;
+}
+.top_box .login_top{
+   font-family:Arial, Helvetica, sans-serif;
+   font-weight: 700;
+   font-size: 40px;
+   color: rgb(210, 206, 199);
+}
+.main_box .content_box{
+
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  
+  justify-content:center;
+}
+input[type=text]:hover{
+  box-shadow: 0 0 5px;
+  width: 250px;
+  transition:  all 0.3s ease-in-out;
+  border-radius: 20px;
+}
+input[type=text]
+{
+  position: relative;
+  width: 200px;
+  height: 30px;
+  margin-top: 5px;
+  border: 1px solid black;
+  margin-bottom: 5px;
+  transition:  all 0.3s ease-in-out;
+}
+input[type=password]:hover{
+  box-shadow: 0 0 5px;
+  width: 250px;
+  transition:  all 0.3s ease-in-out;
+  border-radius: 20px;
+}
+input[type=password]
+{
+  position: relative;
+  margin-top: 5px;
+  width: 200px;
+  height: 30px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  
+}
+.login_btn:hover{
+  border-radius: 2%;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.content_box .login_btn{
+  display: grid;
+  height: 40px;
+  width: 80px;
+  top: 330px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  position: absolute;
+  left: 160px;
+  border: 1px solid black;
+  box-shadow: 0 0 5px;
+}
+.rem:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  transition: all 0.3s ease-in-out;
+  
+}
+.rem{
+  font-size: 18px;
+  position: absolute;
+  left: 130px;
+  margin-top: 245px;
+}
+.Forgot:hover{
+  color: rgb(136, 136, 33);
+}
+.content_box .Forgot{
+  position: absolute;
+  margin-top:330px;
+  left: 130px;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 600;
+
+}
+
+
