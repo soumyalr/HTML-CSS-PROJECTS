@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Protest+Riot&family=Roboto:wght@500&display=swap')
+
+.{
+    margin: 0;
+    padding: 0;  
+}
+/* body */
+body {
+    background-image: url("/ecommerce_website/ecommerce_photo/twogirl.jpg" );
+    background-size: contain;
+    background-position:top;
+    background-repeat: round;
+    scroll-behavior: smooth;
+    overflow-x:hidden;
+  }
+  /*header part*/
+header{
+    display: flex;
+    height: 100px;
+    width :100vw;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: -10px;
+    top: -10px;
+   
+}
+header h1 a:hover{
+    color:grey;
+    transition: all 0.4s ease-in-out;
+}
+header h1 a
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
+ul{
+    justify-content: space-around;
+}
+ul li {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px;
+   
+}
+li a:hover{
+    color: rgb(166, 114, 17);
+    transition: all ,0.3s ,ease-out;
+}
+li a{ 
+    text-decoration: none;
+    color: black;
+}
+/* main start */
+/* home */
+.Home{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin-top: 15%;
+    margin-left: 15%;
+    
+    
+}
+.Home .shop_with_us
+{
+    display: flex;
+    color:whitesmoke;
+    font-size: 70px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.Home .details{
+    display: flex;
+    color:whitesmoke;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 60px;
+    word-spacing: 1px;
+    letter-spacing: 0.6px;
+    
+}
+.Home .buttons{
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    
+}
+.buttons .btn1:hover{
+    cursor: pointer;
+    background-color:white;
+    color: black;
+    transition: all 0.4s,ease-in-out;
+}
+
+.buttons .btn1{
+    display: flex;
+    background-color: transparent;
+    color: white;
+    border:3px solid white;
+    font-size: 13px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    padding: 20px 50px 20px 50px;
+}
+.buttons .btn2:hover{
+    cursor: pointer;
+    background-color:transparent;
+    color: white;
+    transition: all 0.4s,ease-in-out;
+}
+.buttons .btn2{
+    display: flex;
+    background-color: white;
+    color:black;
+    border:3px solid white;
+    font-size: 13px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 50px 20px 50px;
+}
+/* Home End */
+.Products{
+    margin-top: 100px;
+    display: flex;
+    position: absolute;
+    background-color: rgb(255, 254, 254);
+    width: 100vw;
+    flex-direction: column;
+    left: -3px;
+}
+.product_overview{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    
+}
+.miniheading{
+    margin-top: 50px;
+    display: flex;
+    color: #adb5bd;;
+    margin-bottom: 10px;
+    font-weight:400;
+    font-size:medium;
+
+}
+.boldheading{
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(25, 23, 23);
+    margin-bottom: 30px;
+}
+.pview{
+    display: flex;
+    width: 600px;
+    text-align: center;
+    color: rgb(220, 134, 134);
+}
+/*product photos*/
+.Products .product_photo{
+    display: flex;
+    flex-direction: column;
+
+}
+.photo{
+    height: 300px;
+}
+.product_row1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    background-color: bisque;
+    margin: 10px;
+}
+
+.product_row2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+    
+}
+
+
+
+
+ 
+
+

@@ -6,14 +6,14 @@
     
     <title>SAMPLELOGIN</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="slogincss.css">
+   <link rel="stylesheet" type="text/css" href="/samplelogin/slogin.css"  >
+   
 </head>
 <body>
     <div class="main_box">
         <div class="left left-box">
           <div class="centered">
                 <h2>Welcome Friend</h2>
-                
                 <span class="info">TO keep connected with us please login with your personal info</span>
                 <button class="sign_in">SIGN IN</button>
          </div>
@@ -22,18 +22,24 @@
             <div class="centered">
                 <header>Create Account</header>
                 <div class="social">
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
                </div>
-                <span>or use your email for registration</span>
-                <div class="person_info"></div>
-                <i class="fa-solid fa-user"></i>
-                <input type="text" placeholder="Name"    class="input_field" required>
-                <i class="fa-solid fa-envelope"></i>
-                <input type="text" placeholder="Email" class="input_field" required>
-                <i class="fa-solid fa-lock"></i>
-                <input type="text" placeholder="Password" class="input_field" required>
+                <span class="opinion">or use your email for registration</span>
+                <div class="person_info">
+                    <i class="fa-solid fa-user"></i>
+                    <input class="input_field" type="text" placeholder="Name"  required>
+                </div>
+
+                <div class="person_info">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input class="input_field" type="text" placeholder="Email"  required>
+                </div>
+                <div class="person_info">
+                    <i class="fa-solid fa-lock"></i>
+                    <input class="input_field" type="text" placeholder="Password"  required>
+                </div>
                 <button class="sign_up">
                     SIGN UP
                 </button>

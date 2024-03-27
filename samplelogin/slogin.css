@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Roboto:wght@500&display=swap');
+
+ .{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+}
+.main_box{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.left{
+    height: 100%;
+    width: 45%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+   background-color: rgb(68, 181, 181); 
+}
+.left_box{
+   left: 0;  
+}
+.right{
+    height: 100%;
+    width: 55%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    background-color: rgb(233, 245, 240); 
+}
+.right_box{
+    right: 0;  
+}
+
+.left .centered{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+}
+.left .centered h2{
+    font-family: "Roboto",sans-serif;
+    font-size: 50px;
+    color: rgb(222, 230, 227);
+    text-align: center;
+}
+.left .centered .info{
+   
+    font-family: "Roboto",sans-serif;
+    color: rgb(222, 230, 227);
+    text-align: center;
+    padding-bottom: 40px;
+}
+.left .centered .sign_in:hover{
+    cursor: pointer;
+    color:rgb(62, 169, 169);
+    background-color: rgb(222, 230, 227);
+    transition: all 0.3s ease-in-out;
+}
+.left .centered .sign_in{ 
+   height: 60px;
+   width: 200px;
+   font-size: 18px;
+   font-weight: 500;
+   border-radius: 30px;
+   color: rgb(222, 230, 227);
+   border: 3px solid  rgb(222, 230, 227);
+   background-color: transparent;
+}
+.right .centered{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto",sans-serif;
+    margin-top: 150px;
+}
+.right .centered header{
+    font-size: 45px;
+    font-weight:900;
+    color:rgb(57, 154, 154);
+    text-shadow: 0 0 1px rgb(47, 121, 121);
+    margin-bottom: 15px;
+}
+.right .centered .social{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    word-spacing: 20px; 
+}
+.right .centered .social a{
+    color: black;  
+}
+.right .centered .opinion{
+    color: rgb(63, 162, 162);
+    margin-bottom: 25px;
+}
+.right .centered .person_info{
+    margin-bottom: 15px;
+}
+.person_info i{
+    position: absolute;
+    margin-left: 14px;
+    margin-top: 14px;
+}
+.person_info .input_field{
+    display: flex;
+    font-family: "Roboto",sans-serif;
+    padding: 15px 200px 15px 40px ;
+    opacity: 0.8;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    background-color: rgb(120, 224, 190);
+    border:0px;
+    border-radius: 10px;
+    
+}
+.right .centered .sign_up:hover{
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(138, 145, 128, 0.9);
+    transition: all 0.3s ease-in-out;
+}
+.right .centered .sign_up{
+   
+    height: 60px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 30px;
+    color: rgb(240, 255, 249);
+    border:0px;
+    background-color: #6d827ab4;
+}
+
