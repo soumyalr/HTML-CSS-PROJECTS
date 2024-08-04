@@ -1,0 +1,37 @@
+ /*.pp{
+    font-size: 20px;
+    font-style: italic;
+    color: darkkhaki;
+    text-align: center;
+    background-color: black;
+}
+.newclass{
+    background-color: yellow;
+}
+button{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    display: grid;
+    left: 20%;
+    margin-top: 10%;
+    border:3px solid black;
+    border-radius: 50%;
+    animation-name: ballmover;
+    c
+    animation-duration: 5s;
+}
+@keyframes ballmover{
+    0%{
+        left: 20%;
+    }
+    20%{
+        margin-top: 15%;
+    }
+    
+    100%{
+        left: 60%;
+    }
+}
+*/
